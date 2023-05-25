@@ -1,0 +1,19 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1232px;
+  background-color: #f3f5f8;
+  font-family: "PingFangSC-Light", "PingFangSC-Medium", "PingFang SC",
+  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+  "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1, h2 {
+  white-space: nowrap !important;
+}

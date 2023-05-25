@@ -1,0 +1,81 @@
+---
+# namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    istio-injection: enabled
+    kubernetes.io/metadata.name: changjiang
+  name: changjiang
+spec:
+  finalizers:
+  - kubernetes
+---
+# configmap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cj-service-config
+  namespace: changjiang
+data:
+  user: |
+    PYTHON_ENV: production
+    SERVICE_NAME: user
+  frontend: ''
+  content: ''
+---
+# gateway
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: changjiang-gateway
+  namespace: changjiang
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - hosts:
+    - '*'
+    port:
+      name: http
+      number: 31600
+      protocol: HTTP
+---
+# virtual service
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: changjiang
+  namespace: changjiang
+spec:
+  gateways:
+  - changjiang-gateway
+  hosts:
+  - '*'
+  http:
+  - match:
+    - uri:
+        prefix: /api/v1/user/
+    rewrite:
+      uri: /
+    route:
+    - destination:
+        host: user
+        port:
+          number: 80
+  - match:
+    - uri:
+        prefix: /api/v1/content/
+    rewrite:
+        uri: /
+    route:
+    - destination:
+        host: content
+        port:
+            number: 80
+  - route:
+    - destination:
+        host: frontend
+        port:
+          number: 80
+---

@@ -1,0 +1,121 @@
+.tage-effect-zone {
+  .title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 14px;
+  }
+  .item {
+    .brain-statistic {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .brain-statistic-title {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 150%;
+      color: #000000;
+    }
+    .brain-statistic-content {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      color: #999999;
+    }
+  }
+  .run-result {
+    position: relative;
+  }
+  .run-result:fullscreen {
+    #mapcontainer {
+      width: 100vw !important;
+      height: 100vh !important;
+    }
+    .tageinfo-zone {
+      width: 35%;
+      top: 70px;
+    }
+    .tag-message-zone {
+      width: 35%;
+      top: 400px;
+    }
+  }
+  .tageinfo-zone {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    width: 450px;
+    padding: 48px 0;
+    .title {
+      padding-bottom: 4px;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+      padding: 24px;
+      margin-top: 18px;
+    }
+    .statistics {
+      .statistics-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.44px;
+        color: #ffffff;
+      }
+      .statistics-content {
+        .brain-statistic-content {
+          color: #ffffff;
+          font-size: 18px;
+          letter-spacing: -0.44px;
+          font-weight: 1000;
+        }
+        .brain-statistic-content-value {
+          font-size: 34px;
+          line-height: 48px;
+          font-weight: bold;
+        }
+      }
+      .statistics-rate {
+        padding-bottom: 6px;
+        padding-left: 8px;
+        .brain-statistic-content {
+          font-size: 14px;
+        }
+      }
+    }
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: #ffffff;
+      padding: 0;
+      margin-top: 8px;
+      .info-item {
+        width: 170px;
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 32px;
+      }
+      .img-wrapper {
+        border: 1px solid #545454;
+        border-radius: 4px;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 30px;
+      }
+      .info-label,
+      .info-value {
+        display: inline-block;
+        min-width: 58px;
+        b {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

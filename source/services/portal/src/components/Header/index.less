@@ -1,0 +1,55 @@
+@import "../../variable.less";
+
+.brain-header {
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s;
+  border: 1px solid #f3f4f6;
+  &.brain-header-scrolled {
+    background: #fff;
+    box-shadow: 0 8px 24px -2px rgb(0 0 0 / 5%);
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: @navbar-height;
+    white-space: nowrap;
+
+    .navbar-logo img {
+      height: 34px;
+      line-height: @navbar-height;
+    }
+    .navbar-logo a {
+      color: #000000;
+    }
+    .navbar-logo .title {
+      font-size: 14px;
+      padding-left: 8px;
+    }
+    .brain-menu {
+      line-height: 28px;
+      font-size: 12px;
+      font-weight: 500;
+      border-bottom: none;
+      background-color: transparent;
+      flex: auto;
+      min-width: 0;
+      display: flex;
+      justify-content: flex-end;
+
+      .brain-menu-item {
+        a {
+          color: #000000;
+        }
+        &:not(.brain-menu-item-selected) a {
+          opacity: 0.4;
+        }
+      }
+    }
+  }
+}

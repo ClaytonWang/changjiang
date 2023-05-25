@@ -1,0 +1,77 @@
+@import "~antd/dist/antd.less";
+@import "./variable.less";
+
+body {
+  font-family: @font;
+  // background-color: #f3f5f8;
+}
+
+.brain-wrapper {
+  max-width: 1232px;
+  padding: 0 32px;
+  margin: auto;
+}
+
+// utils
+.flex-middle {
+  display: flex;
+  align-items: center;
+}
+.text-right {
+  text-align: right;
+}
+.hover-card {
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+  }
+}
+
+// 响应式
+.brain-screen-sm,
+.brain-screen-xs {
+  .brain-footer {
+    .logo,
+    .title,
+    .icon {
+      min-height: 0;
+      margin-bottom: 8px;
+    }
+  }
+}
+.brain-screen-md,
+.brain-screen-sm,
+.brain-screen-xs {
+  .brain-title {
+    font-size: 32px !important;
+    padding: 0 16px;
+  }
+}
+.brain-screen-xxl,
+.brain-screen-xl,
+.brain-screen-lg {
+  .brain-footer-row {
+    display: flex;
+    .brain-col {
+      flex: auto;
+      &.brain-footer-icon {
+        flex: none;
+      }
+    }
+  }
+  .page-achievements {
+    .olympics .desc {
+      max-width: 432px;
+    }
+  }
+  .page-solution {
+    .scene {
+      .brain-col {
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+    }
+  }
+}
+
+// hover color: #a896fa;

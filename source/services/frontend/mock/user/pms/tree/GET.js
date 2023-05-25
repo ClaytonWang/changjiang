@@ -1,0 +1,107 @@
+/**
+ * @Author guanlin.li guanlin.li@digitalbrain.cn
+ * @Date 2023-01-31 15:26:15
+ * @LastEditors guanlin.li guanlin.li@digitalbrain.cn
+ * @LastEditTime 2023-01-31 15:28:16
+ */
+module.exports = {
+  success: true,
+  message: '',
+  status: 200,
+  result: [
+    {
+      id: 1,
+      name: 'user-pms-system',
+      value: '系统管理',
+      parent_id: 0,
+      uri: '',
+      tag: 'system_module',
+      category: 'module',
+      status: 'True',
+      order: null,
+      children: [
+        {
+          id: 2,
+          name: 'user-pms-user',
+          value: '用户管理',
+          parent_id: 1,
+          uri: null,
+          tag: null,
+          category: 'menu',
+          status: 'True',
+          order: null,
+          children: [
+            {
+              id: 4,
+              name: 'user-pms-user-edit',
+              value: '编辑',
+              parent_id: 2,
+              uri: null,
+              tag: null,
+              category: 'function',
+              status: 'True',
+              order: null,
+            },
+            {
+              id: 5,
+              name: 'user-pms-user-view',
+              value: '查看',
+              parent_id: 2,
+              uri: null,
+              tag: null,
+              category: 'function',
+              status: 'True',
+              order: null,
+            },
+          ],
+        },
+        {
+          id: 3,
+          name: 'user-pms-pms',
+          value: '权限管理',
+          parent_id: 1,
+          uri: null,
+          tag: null,
+          category: 'menu',
+          status: 'True',
+          order: null,
+          children: [
+            {
+              id: 6,
+              name: 'user-pms-pms-edit',
+              value: '编辑',
+              parent_id: 3,
+              uri: null,
+              tag: null,
+              category: 'function',
+              status: 'True',
+              order: null,
+            },
+            {
+              id: 7,
+              name: 'user-pms-pms-view',
+              value: '查看',
+              parent_id: 3,
+              uri: null,
+              tag: null,
+              category: 'function',
+              status: 'True',
+              order: null,
+            },
+            {
+              id: 8,
+              name: 'user-pms-pms-test',
+              value: '测试查看',
+              parent_id: 3,
+              uri: null,
+              tag: null,
+              category: 'function',
+              status: 'True',
+              order: null,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};

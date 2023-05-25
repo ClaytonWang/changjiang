@@ -1,0 +1,33 @@
+@import '../../css/index.less';
+.dbr-header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  .dbr-title {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    & img {
+      height: 32px;
+    }
+    & span {
+      font-size: 22px;
+      margin-left: @dbr-margin-large;
+      width: 120px;
+    }
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    & span {
+      margin: 0 4px;
+    }
+    & a {
+      color: #fff;
+    }
+    .anticon {
+      font-size: 16px;
+    }
+  }
+}

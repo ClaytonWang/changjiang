@@ -1,0 +1,11 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "jsx-a11y/anchor-is-valid": [ "off" ]
+  },
+  "env": {
+    "es6": true
+  }
+}

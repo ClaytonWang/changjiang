@@ -1,0 +1,534 @@
+{
+  "ai": [
+    {
+      "title": "大模型平台",
+      "desc": "针对多模态大模型的在线与离线训练、部署与应用，提供高效系统。"
+    },
+    {
+      "title": "智能标注",
+      "desc": "基于预训练大模型，对泛在的非结构化多模态数据以人在环路的方式提供高效的标注解决方案。"
+    },
+    {
+      "title": "数据挖掘",
+      "desc": "面向广泛数据挖掘场景，提供基于大数据的智能服务，典型应用场景包括推荐系统、用户行为预测、时序预测、空域预测、异常检测等。"
+    },
+    {
+      "title": "运筹优化",
+      "desc": "针对各类运筹优化问题，高效构建求解模型并采用相应求解算法快速求解，具体问题类型包括但不限于调度、排期、装箱、选址等。"
+    },
+    {
+      "title": "机器人控制优化",
+      "desc": "结合前沿技术，面向足式机器人、机械臂、灵巧手、轮足机器人等具身，完成从模拟器训练在现实机器实验的迁移，最终实现实体具身机器人在复杂任务中的控制智能。"
+    },
+    {
+      "title": "游戏AI",
+      "desc": "面向游戏在设计、研发、发行、运营等各阶段的降本增效、提升质量及体验等需求研发相关的计算机视觉、自然语言处理、生成模型、强化学习等技术的游戏AI解决方案。"
+    },
+    {
+      "title": "时序数据分析决策",
+      "desc": "针对制造、能源、电力等工业企业在生产、运营环节中降本提质增效需求，研发数据驱动式智能解决方案，助力企业完成数智化升级。"
+    },
+    {
+      "title": "强化学习",
+      "desc": "面向广泛的序贯决策任务，基于动态或离线业务数据训练高性能强化学习策略并完成实时部署、服务和评测。"
+    },
+    {
+      "title": "黑盒优化",
+      "desc": "面向包括燃烧锅炉、电动汽车、工厂等复杂环境，根据领域知识和业务数据构建黑盒模型，在有限算力和数据下计算出优化的系统配置并持续调整。"
+    },
+    {
+      "title": "动画智能",
+      "desc": "将强化学习大模型技术运用到虚拟人物上，使其产生满足玩家、设计师等要求的拟人、流畅的动作片段，跳过复杂的逐帧动画设计，提升动画生产的效率。"
+    },
+    {
+      "title": "多模态大模型决策算法",
+      "desc": "使用一个预训练模型同时解决上千个图片、文本、决策（强化学习、多智能体与运筹优化）任务。"
+    }
+  ],
+  "news": [
+    {
+      "title": "星际争霸II协作对抗基准超越SOTA，新型Transformer架构解决多智能体强化学习问题",
+      "link": "https://mp.weixin.qq.com/s/5tAmcakgexDHReMPcS1gJw",
+      "date": "2022-06-02",
+      "cover": "news_0.png"
+    },
+    {
+      "title": "伦敦大学学院计算机系教授汪军：决策大模型",
+      "link": "https://mp.weixin.qq.com/s/8XGijhWJTMgxqJE6juRUXA",
+      "date": "2022-06-22",
+      "cover": "news_1.png"
+    },
+    {
+      "title": "上汽集团创新研究开发总院与上海数字大脑研究院达成战略合作",
+      "link": "https://mp.weixin.qq.com/s/JTLgpHTSzyzci0bK-1O2Hg",
+      "date": "2022-09-30",
+      "cover": "news_2.png"
+    },
+    {
+      "title": "数字世界里的足球——数研院探索多智能体足球AI并取得新突破",
+      "link": "https://mp.weixin.qq.com/s/s1J0RVBc09gQH7jJEIgF-Q",
+      "date": "2022-11-29",
+      "cover": "news_3.png"
+    },
+    {
+      "title": "数研院获评36Kr 「Wise 2022 新经济之王前沿科技领域年度企业」",
+      "link": "https://mp.weixin.qq.com/s/VRnEdPZZYnlt9B0r3iYydg",
+      "date": "2022-11-30",
+      "cover": "news_4.png"
+    },
+    {
+      "title": "数研院入选「甲子20」2022中国人工智能领域最具商业潜力科技企业TOP20",
+      "link": "https://mp.weixin.qq.com/s/-DK1qgrz5byGfDjlqJbCWA",
+      "date": "2022-12-09",
+      "cover": "news_5.png"
+    },
+    {
+      "title": "数研院发布国内首个多模态决策大模型DB1，决策推理优化速度大幅提升",
+      "link": "https://mp.weixin.qq.com/s/vcZd-ol7Dd4DaTsxRsT7HA",
+      "date": "2022-12-08",
+      "cover": "news_6.png"
+    }
+  ],
+  "solution": [
+    {
+      "title": "游戏文娱",
+      "desc": "针对游戏文娱行业打造多产品矩阵，覆盖全生命周期。针对有决策需求的各场景进行产品开发，并形成标准化输出，可覆盖各关键步骤，降本增效。",
+      "icon": "icon-game",
+      "scene": [
+        {
+          "title": "图片压缩",
+          "desc": "针对给定机型、操作系统、人类反馈或者其他优化目标，快速、精准、自动地为每一张纹理图片选择最合适的压缩算法以及相应参数，极大降低穷举所有压缩方式。"
+        },
+        {
+          "title": "游戏开发",
+          "desc": "针对人物、场景等游戏要素构建基础模型框架，完成包括游戏渲染、设计、测试等流程工作。"
+        },
+        {
+          "title": "游戏运营",
+          "desc": "建立数据系统，对游戏前期埋点数据进行分析得出相关显著特征、差异性，以辅助游戏运营提升用户留存及进一步迭代优化。"
+        },
+        {
+          "title": "内容推荐引擎",
+          "desc": "使用多种前沿技术进行内容和用户数据的分析，精准了解用户喜好并推送个性化内容及服务，多纬度进行技术开发，干预广告推荐全流程，帮助客户更大化广告表现。"
+        }
+      ]
+    },
+    {
+      "title": "消费零售",
+      "desc": "在消费零售领域进行多解决方案落地，制定数据模型标准、建立相关管理中台、优化开发和业务逻辑，进行行业Know-how沉淀，提升行业数智化经营建设能力。",
+      "icon": "icon-gouwuche",
+      "scene": [
+        {
+          "title": "物流调度",
+          "desc": "运输计划模拟仿真，对路径进行最优规划实现效率提升、成本降低。"
+        },
+        {
+          "title": "智能仓库",
+          "desc": "通过数据结构分析，对商品品类、库存结构和周转以及资金做整体建模，预测还原出贴近真实的销售数据，给出各项商品的增补建议避免损耗，有效进行库存管理。"
+        },
+        {
+          "title": "精准营销",
+          "desc": "建立市场洞察数据库，进行客户价值深挖，并基于算法模型进行优质线索推送，有效触达目标用户。"
+        }
+      ]
+    },
+    {
+      "title": "能源工业",
+      "desc": "创新性地将运筹优化与强化学习结合应用在能源工业领域，致力于供应链流程标准化、便捷化。覆盖行业多场景，实现问题快速定位，效率提高更安全。",
+      "icon": "icon-sun",
+      "scene": [
+        {
+          "title": "精准供热",
+          "desc": "针对能源进行多维度联动的运筹调度，满足资源与需求侧的平衡，在节约资源的基础上实现稳定有序的高效供热。"
+        },
+        {
+          "title": "燃煤优化",
+          "desc": "基于燃煤的实时及历史数据，进行燃煤智能优化升级，能够优化燃煤、提高锅炉燃烧效率，有效提高锅炉燃烧的合理性和经济性。"
+        },
+        {
+          "title": "设备维护",
+          "desc": "基于多维度数据监测进行设备的健康评价及分级，快速定位异常变量或故障设备，关联历史故障记录提供维修建议，保障安全生产。"
+        },
+        {
+          "title": "智能电网",
+          "desc": "通过智能决策、运筹优化等技术能力支撑的决策模型，实现电力供需精准预测、快速调度，满足电网运行过程中的协同、决策、优化平衡及调度等多目标，大幅提高电网全系统及各节点的安全、高效运行。"
+        }
+      ]
+    },
+    {
+      "title": "通信工程",
+      "desc": "针对通信工程复杂链路进行产品升级、路径优化、策略迭代与模型覆盖，以个性化服务提升用户体验、全智能应用实现行业升级。",
+      "icon": "icon-global",
+      "scene": [
+        {
+          "title": "网络规划",
+          "desc": "基于多目标组合优化等问题，综合考虑传输条件、通信指标约束，采用多维度进行建模，输出最优部署及规划方案。"
+        },
+        {
+          "title": "智能纠偏",
+          "desc": "智能纠正运营商资产管理系统中错误的光猫的二级分光器所属关系，提高光路故障以及质差的界定，定位以及预测。"
+        }
+      ]
+    }
+  ],
+  "paper": [
+    {
+      "title": "大模型平台",
+      "papers": [
+        {
+          "link": "https://arxiv.org/abs/1712.00600",
+          "title": "MAgent: A Many-Agent Reinforcement Learning Platform for Artificial Collective Intelligence. NIPS 2017 & AAAI 2018 Demo.",
+          "date": "2018"
+        },
+        {
+          "link": "https://arxiv.org/abs/2106.07551",
+          "title": "MALib: A Parallel Framework for Population-based Multi-agent Reinforcement Learning. 2021.",
+          "date": "2021"
+        },
+        {
+          "link": "https://www.vldb.org/pvldb/vol12/p1399-koliousis.pdf",
+          "title": "CrossBow: Scaling Deep Learning with Small Batch Sizes on Multi-GPU Servers. VLDB 2019.",
+          "date": "2019"
+        },
+        {
+          "link": "https://proceedings.mlsys.org/paper/2021/file/8f14e45fceea167a5a36dedd4bea2543-Paper.pdf",
+          "title": "ModularNAS: Towards Modularized and Reusable Neural Architecture Search. MLSys 2021.",
+          "date": "2021"
+        },
+        {
+          "link": "https://arxiv.org/pdf/2010.09776.pdf",
+          "title": "SMARTS: Scalable Multi-Agent Reinforcement Learning Training School for Autonomous Driving. CoRL 2020. (Best System Paper Award)",
+          "date": "2020"
+        },
+        {
+          "link": "https://www.usenix.org/conference/osdi20/presentation/mai",
+          "title": "KungFu: Making Training in Distributed Machine Learning Adaptive. OSDI 2020.",
+          "date": "2020"
+        },
+        {
+          "link": "https://dl.acm.org/doi/10.1145/3123266.3129391",
+          "title": "Tensorlayer: a Versatile Library for Efficient Deep Learning Development. MM 2017.",
+          "date": "2017"
+        },
+        {
+          "link": "https://shivaram.org/publications/chi-vldb18.pdf",
+          "title": "Chi: A scalable and programmable control plane for distributed stream processing systems. VLDB 2018.",
+          "date": "2018"
+        },
+        {
+          "link": "https://www.usenix.org/conference/nsdi21/presentation/xu",
+          "title": "Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo. NSDI 2021.",
+          "date": "2021"
+        }
+      ]
+    },
+    {
+      "title": "工业互联网",
+      "papers": [
+        {
+          "link": "https://ieeexplore.ieee.org/abstract/document/9685590",
+          "title": "Joint Caching and Transmission in the Mobile Edge Network: A Multi-Agent Learning Approach. GLOBECOM 2021.",
+          "date": "2021"
+        }
+      ]
+    },
+    {
+      "title": "强化学习",
+      "papers": [
+        {
+          "link": "https://arxiv.org/abs/2111.12600",
+          "title": "Learning State Representations via Retracing in Reinforcement Learning. ICLR 2022.",
+          "date": "2022"
+        },
+        {
+          "link": "https://arxiv.org/abs/2203.02214",
+          "title": "Plan Your Target and Learn Your Skills: Transferable State-Only Imitation Learning via Decoupled Policy Optimization. ICML 2022.",
+          "date": "2022"
+        },
+        {
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3356464.3357707?casa_token=l4374ngKty0AAAAA:ihkxb_G_1HrCcX6Ac0UypDjAyVUwYHkTUbq0tQ_tGSuxKIqcqVp-AHt0tn0JGUzFwQUS4T31fbqw1D0",
+          "title": "Factorized Q-learning for Large-scale Multi-agent Systems. the Proceedings of the First International Conference on Distributed Artificial Intelligence. DAI 2019.",
+          "date": "2019"
+        },
+        {
+          "link": "https://ieeexplore.ieee.org/abstract/document/9685522",
+          "title": "MAFENN: Multi-Agent Feedback Enabled Neural Network for Wireless Channel Equalization. GLOBECOM 2021.",
+          "date": "2021"
+        },
+        {
+          "link": "https://ieeexplore.ieee.org/abstract/document/9500274",
+          "title": "Retrospective Thinking based Multi-Agent System for Wireless Video Transmissions. ICC 2021.",
+          "date": "2021"
+        },
+        {
+          "link": "https://proceedings.neurips.cc/paper/2017/file/d8e1344e27a5b08cdfd5d027d9b8d6de-Paper.pdf",
+          "title": "Thinking Fast and Slow with Deep Learning and Tree Search. NeurIPS 2017.",
+          "date": "2017"
+        },
+        {
+          "link": "https://www.ijcai.org/proceedings/2019/0085.pdf",
+          "title": "A Regularized Opponent Model with Maximum Entropy Objective. IJCAI 2019.",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "title": "数据科学",
+      "papers": [
+        {
+          "link": "https://arxiv.org/pdf/2104.06077.pdf",
+          "title": "An Adversarial Imitation Click Model for Information Retrieval. WWW 2021.",
+          "date": "2021"
+        },
+        {
+          "link": "https://arxiv.org/pdf/2004.14714.pdf",
+          "title": "A Deep Recurrent Survival Model for Unbiased Ranking. SIGIR 2020.",
+          "date": "2020"
+        },
+        {
+          "link": "https://arxiv.org/pdf/1802.01886.pdf",
+          "title": "Texygen: A Benchmarking Platform for Text Generation Models. SIGIR 2018.",
+          "date": "2018"
+        },
+        {
+          "link": "https://arxiv.org/pdf/1807.02299.pdf",
+          "title": "On the Equilibrium of Query Reformulation and Document Retrieval. ICTIR 2018.",
+          "date": "2018"
+        },
+        {
+          "link": "https://discovery.ucl.ac.uk/id/eprint/10066102/1/Wang_Dynamic%20attention%20deep%20model%20for%20article%20recommendation%20by%20learning%20human%20editors'%20demonstration_AAM.pdf",
+          "title": "A Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors' Demonstration. KDD 2017.",
+          "date": "2017"
+        },
+        {
+          "link": "https://arxiv.org/pdf/1705.10513.pdf",
+          "title": "IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models. SIGIR 2017.",
+          "date": "2017"
+        }
+      ]
+    },
+    {
+      "title": "游戏AI",
+      "papers": [
+        {
+          "link": "https://www.aaai.org/AAAI22Papers/AAAI-7624.YanX.pdf",
+          "title": "Learning to Identify Top Elo Ratings as A Dueling Bandits Approach. AAAI 2022.",
+          "date": "2022"
+        },
+        {
+          "link": "http://proceedings.mlr.press/v139/du21e/du21e.pdf",
+          "title": "Estimating α-Rank from A Few Entries with Low Rank Matrix Completion. ICML 2021.",
+          "date": "2021"
+        },
+        {
+          "link": "http://proceedings.mlr.press/v80/yang18d/yang18d.pdf",
+          "title": "Mean Field Multi-agent Reinforcement Learning. ICML 2018.",
+          "date": "2018"
+        },
+        {
+          "link": "http://proceedings.mlr.press/v119/yang20i/yang20i.pdf",
+          "title": "Multi-agent Determinantal Q-learning. ICML 2020.",
+          "date": "2020"
+        },
+        {
+          "link": "http://proceedings.mlr.press/v139/mguni21a/mguni21a.pdf",
+          "title": "Learning in Nonzero-Sum Stochastic Games with Potentials. ICML 2021.",
+          "date": "2021"
+        },
+        {
+          "link": "https://arxiv.org/pdf/2112.02618.pdf",
+          "title": "LIGS: Learnable Intrinsic-Reward Generation Selection for Multi-Agent Learning. ICLR 2022.",
+          "date": "2022"
+        },
+        {
+          "link": "https://arxiv.org/pdf/2201.06257.pdf",
+          "title": "GCS: Graph-Based Coordination Strategy for Multi-Agent Reinforcement Learning. AAMAS 2022.",
+          "date": "2022"
+        },
+        {
+          "link": "https://arxiv.org/pdf/1703.10069.pdf",
+          "title": "Multiagent Bidirectionally-Coordinated Nets: Emergence of Human-level Coordination in Learning to Play StarCraft Combat Games. Emergent Communication Workshop, NIPS 2017.",
+          "date": "2017"
+        },
+        {
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/6217",
+          "title": "Learning to Communicate Implicitly by Actions. AAAI 2018.",
+          "date": "2018"
+        },
+        {
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/7157",
+          "title": "Learning to Model Opponent Learning. AAAI 2020.",
+          "date": "2020"
+        }
+      ]
+    },
+    {
+      "title": "运筹优化",
+      "papers": [
+        {
+          "link": "https://arxiv.org/pdf/1910.02591.pdf",
+          "title": "Multi-Agent Reinforcement Learning for Order-dispatching via Order-Vehicle Distribution Matching. CIKM 2019.",
+          "date": "2019"
+        },
+        {
+          "link": "https://arxiv.org/abs/2207.13701",
+          "title": "Branch Ranking for Efficient Mixed-Integer Programming via Offline Ranking-based Policy Learning. ECMLPKDD 2022.",
+          "date": "2022"
+        },
+        {
+          "link": "https://arxiv.org/abs/1901.11454",
+          "title": "Efficient Ridesharing Order Dispatching with Mean Field Multi-Agent Reinforcement Learning. WWW 2019",
+          "date": "2019"
+        },
+        {
+          "link": "https://arxiv.org/pdf/2105.13645.pdf",
+          "title": "Learning to Select Cuts for Efficient Mixed-Integer Programming. PR 2022.",
+          "date": "2022"
+        },
+        {
+          "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8901128",
+          "title": "Layout Design for Intelligent Warehouse by Evolution with Fitness Approximation. IEEE Access 2019",
+          "date": "2019"
+        },
+        {
+          "link": "https://arxiv.org/pdf/2110.15105.pdf",
+          "title": "A Game-Theoretic Approach for Improving Generalization Ability of TSP Solvers. Gamification and Multiagent Solutions Workshop, ICLR 2022.",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "title": "智能交互",
+      "papers": [
+        {
+          "link": "https://arxiv.org/pdf/1901.09207.pdf",
+          "title": "Probabilistic Recursive Reasoning for Multi-Agent Reinforcement Learning. ICLR 2019.",
+          "date": "2019"
+        },
+        {
+          "link": "https://www.ijcai.org/proceedings/2020/0058.pdf",
+          "title": "Modelling Bounded Rationality in Multi-Agent Interactions by Generalized Recursive Reasoning. IJCAI 2020.",
+          "date": "2020"
+        },
+        {
+          "link": "https://arxiv.org/abs/2205.04120",
+          "title": "Cross-Utterance Conditioned VAE for Non-Autoregressive Text-to-Speech. ACL 2022.",
+          "date": "2022"
+        }
+      ]
+    }
+  ],
+  "support": [
+    {
+      "title": "自适应集群资源调度平台",
+      "desc": [
+        "GPU集群虚拟化",
+        "GPU集群弹性伸缩",
+        "异构AI加速卡集成"
+      ]
+    },
+    {
+      "title": "低成本大模型部署系统",
+      "desc": [
+        "大模型高效微调",
+        "大模型推理加速（模型蒸馏、剪枝、量化）"
+      ]
+    },
+    {
+      "title": "决策智能大模型训练系统",
+      "desc": [
+        "图-文-决策多模态预训练大模型",
+        "多机多卡并行加速（模型并行/流水线并行，张量并行）"
+      ]
+    },
+    {
+      "title": "环境仿真平台",
+      "desc": [
+        "高保真多模态环境仿真引擎",
+        "GPU环境模拟加速"
+      ]
+    },
+    {
+      "title": "人在环路数据标注平台",
+      "desc": [
+        "大模型驱动的零样本预标注与数据合成",
+        "人在环路大模型迭代"
+      ]
+    },
+    {
+      "title": "AI辅助程序开发和测试平台",
+      "desc": [
+        "大模型驱动的代码补全",
+        "大模型驱动的接口生成",
+        "大模型驱动的注释生成"
+      ]
+    }
+  ],
+  "scene": [
+    {
+      "title": "图片压缩",
+      "desc": "针对给定机型、操作系统、人类反馈或者其他优化目标，快速、精准、自动地为每一张纹理图片选择最合适的压缩算法以及相应参数，极大降低穷举所有压缩方式。",
+      "index": "0"
+    },
+    {
+      "title": "游戏开发",
+      "desc": "针对人物、场景等游戏要素构建基础模型框架，完成包括游戏渲染、设计、测试等流程工作。",
+      "index": "1"
+    },
+    {
+      "title": "游戏运营",
+      "desc": "建立数据系统，对游戏前期埋点数据进行分析得出相关显著特征、差异性，以辅助游戏运营提升用户留存及进一步迭代优化。",
+      "index": "2"
+    },
+    {
+      "title": "内容推荐引擎",
+      "desc": "使用多种前沿技术进行内容和用户数据的分析，精准了解用户喜好并推送个性化内容及服务，多纬度进行技术开发，干预广告推荐全流程，帮助客户更大化广告表现。",
+      "index": "3"
+    },
+    {
+      "title": "物流调度",
+      "desc": "运输计划模拟仿真，对路径进行最优规划实现效率提升、成本降低。",
+      "index": "4"
+    },
+    {
+      "title": "智能仓库",
+      "desc": "通过数据结构分析，对商品品类、库存结构和周转以及资金做整体建模，预测还原出贴近真实的销售数据，给出各项商品的增补建议避免损耗，有效进行库存管理。",
+      "index": "5"
+    },
+    {
+      "title": "精准营销",
+      "desc": "建立市场洞察数据库，进行客户价值深挖，并基于算法模型进行优质线索推送，有效触达目标用户。",
+      "index": "6"
+    },
+    {
+      "title": "精准供热",
+      "desc": "针对能源进行多维度联动的运筹调度，满足资源与需求侧的平衡，在节约资源的基础上实现稳定有序的高效供热。",
+      "index": "7"
+    },
+    {
+      "title": "燃煤优化",
+      "desc": "基于燃煤的实时及历史数据，进行燃煤智能优化升级，能够优化燃煤、提高锅炉燃烧效率，有效提高锅炉燃烧的合理性和经济性。",
+      "index": "8"
+    },
+    {
+      "title": "设备维护",
+      "desc": "基于多维度数据监测进行设备的健康评价及分级，快速定位异常变量或故障设备，关联历史故障记录提供维修建议，保障安全生产。",
+      "index": "9"
+    },
+    {
+      "title": "智能电网",
+      "desc": "通过智能决策、运筹优化等技术能力支撑的决策模型，实现电力供需精准预测、快速调度，满足电网运行过程中的协同、决策、优化平衡及调度等多目标，大幅提高电网全系统及各节点的安全、高效运行。",
+      "index": "10"
+    },
+    {
+      "title": "网络规划",
+      "desc": "基于多目标组合优化等问题，综合考虑传输条件、通信指标约束，采用多维度进行建模，输出最优部署及规划方案。",
+      "index": "11"
+    },
+    {
+      "title": "智能纠偏",
+      "desc": "智能纠正运营商资产管理系统中错误的光猫的二级分光器所属关系，提高光路故障以及质差的界定，定位以及预测。",
+      "index": "12"
+    }
+  ]
+}

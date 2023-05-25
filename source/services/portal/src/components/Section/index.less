@@ -1,0 +1,41 @@
+@import "../../variable.less";
+
+.brain-section {
+  margin-top: 64px;
+  &.brain-section-bg-true {
+    background: linear-gradient(180deg, #fffefe 0%, #ececec 100%);
+  }
+
+  .brain-section-header {
+    margin-bottom: -12px;
+  }
+  .brain-section-desc,
+  .brain-section-title,
+  .brain-section-link {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .brain-section-desc {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 40px;
+    font-family: @font-light;
+  }
+  .brain-section-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+  }
+  .brain-section-subtitle {
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 44px;
+    text-align: center;
+    margin: 32px 0 0;
+  }
+  .brain-section-subtitle + .brain-section-subtitle {
+    margin-top: 16px;
+  }
+}

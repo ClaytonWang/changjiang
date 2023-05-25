@@ -1,0 +1,20 @@
+const PERMISSION_MAP = {
+  SYSTEM: 'system',
+  SYSTEM_USER: 'system.user',
+  SYSTEM_USER_EDIT: 'system.user.edit',
+  SYSTEM_USER_VIEW: 'system.user.view',
+  SYSTEM_ROLE: 'system.role',
+  SYSTEM_ROLE_EDIT: 'system.role.edit',
+  SYSTEM_ROLE_VIEW: 'system.role.view',
+  CONTENT: 'content',
+  CONTENT_PORTAL: 'content.portal',
+  CONTENT_PORTAL_EDIT: 'content.portal.edit',
+  CONTENT_PORTAL_VIEW: 'content.portal.view',
+  CONTENT_MODEL: 'content.model',
+  CONTENT_MODEL_EDIT: 'content.model.edit',
+  CONTENT_MODEL_VIEW: 'content.model.view',
+  CONTENT_TAG: 'content.tag',
+  CONTENT_TAG_EIDT: 'content.tag.edit',
+  CONTENT_TAG_VIEW: 'content.tag.view',
+};
+module.exports = PERMISSION_MAP;

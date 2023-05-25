@@ -1,0 +1,68 @@
+.jumbotron {
+  &.jumbotron-curtain {
+    .jumbotron-curtain-content {
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      padding-top: 60px;
+      .title {
+        margin-top: 70px;
+        margin-bottom: 24px;
+      }
+      .desc {
+        font-size: 16px;
+        font-weight: 400;
+        color: #5d606b;
+        line-height: 25px;
+        letter-spacing: 1px;
+        display: inline-block;
+        max-width: 540px;
+      }
+    }
+  }
+
+  &.jumbotron-carousel {
+    // background: linear-gradient(180deg, #cdd7e3 0%, #f3f5f8 100%);
+    background: linear-gradient(180deg, #fffefe 0%, #ececec 100%);
+
+    .carousel-item {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+
+      .carousel-item-title {
+        width: 100%;
+        text-align: center;
+      }
+      .carousel-item-desc {
+        margin-top: 24px;
+        font-weight: 400;
+        line-height: 150%;
+        font-style: normal;
+        display: inline-block;
+        max-width: 540px;
+        font-size: 14px;
+        color: #464646;
+        text-align: center;
+        text-indent: 2em;
+      }
+    }
+    .brain-carousel .slick-dots li {
+      width: 30px;
+      button {
+        background-color: #353535;
+        opacity: 20%;
+      }
+
+      &.slick-active {
+        width: 44px;
+        button {
+          background-color: #8e7cea;
+          opacity: 100%;
+        }
+      }
+    }
+  }
+}

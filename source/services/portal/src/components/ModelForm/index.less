@@ -1,0 +1,122 @@
+.brain-model-form {
+  .check {
+    .brain-checkbox-inner {
+      border-radius: 9px;
+      width: 18px;
+      height: 18px;
+    }
+    .brain-checkbox-checked .brain-checkbox-inner {
+      background-color: #ffffff;
+      border-color: #7963ec;
+    }
+    .brain-checkbox-checked .brain-checkbox-inner::after {
+      margin-left: 0.5px;
+      border-color: #7963ec;
+    }
+    .brain-checkbox-checked::after {
+      border-color: transparent;
+    }
+  }
+  .form-section {
+    .brain-form-item-label {
+      margin-top: 24px;
+    }
+    .run-header {
+      margin-top: 24px;
+    }
+    .run-content {
+      margin-top: 24px;
+    }
+    .run-result {
+      height: 500px;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .run-card {
+      border: 1px solid #e2e2e2;
+      border-radius: 8px;
+      padding: 24px;
+    }
+  }
+  
+  .model-form-item {
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    &.active {
+      border: 1px solid #7963ec;
+    }
+
+    &.error {
+      input {
+        border: 1px solid #eb5151;
+      }
+    }
+    .must::before {
+      content: "*";
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+      color: #eb5151;
+    }
+
+    .title-zone,
+    .content-zone {
+      display: flex;
+      justify-content: space-between;
+    }
+    .title {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 150%;
+    }
+    .content-zone {
+      margin-top: 12px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #afafaf;
+      .brain-input,
+      .brain-input-sm {
+        border: 1px solid #f0f0f0;
+      }
+      .brain-radio-button-wrapper,
+      .brain-radio-group {
+        height: 33px;
+        line-height: 32px;
+        font-size: 12px;
+        color: inherit;
+      }
+      .brain-radio-button-wrapper:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      .brain-radio-button-wrapper:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      .brain-radio-button-wrapper-checked,
+      .brain-radio-button-checked {
+        background: rgba(121, 99, 236, 0.03);
+      }
+    }
+    .brain-input-number{
+      border: 1px solid #f0f0f0;
+    }
+  }
+}
+.run-operators {
+  padding-top: 26px;
+  button {
+    float: right;
+    width: 156px;
+    height: 40px;
+    background: linear-gradient(180deg, #FEFFFF 0%, #F4F5F7 100%);
+    border: 1px solid #E6E8EC;
+    border-radius: 7px;
+  }
+}
